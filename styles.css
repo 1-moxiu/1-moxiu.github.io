@@ -1,0 +1,96 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #f4f4f4;
+    background-color: #121212; /* Dark mode background */
+    line-height: 1.6;
+    transition: opacity 0.3s ease; /* Transition for fade effect */
+}
+
+header {
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: #1f1f1f; /* Dark header */
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #b0b0b0; /* Lighter text for contrast */
+}
+
+section {
+    padding: 3rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#about p, #projects p {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#projects ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+#projects ul li {
+    margin: 0.5rem 0;
+}
+
+#projects ul li a {
+    color: #bb86fc; /* Purple links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact ul {
+    list-style: none;
+    text-align: center;
+    padding: 1rem;
+}
+
+#contact ul li {
+    margin: 0.5rem 0;
+}
+
+#contact ul li a {
+    color: #bb86fc; /* Purple links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #1f1f1f; /* Footer background */
+    color: #b0b0b0; /* Lighter footer text */
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Fade-out effect for loading */
+body.fade-out {
+    opacity: 0; /* Fade out to transparent */
+}
